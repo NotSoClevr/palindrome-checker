@@ -1,0 +1,69 @@
+*, *::before, *::after {box-sizing: border-box;
+}
+
+body {margin: 0;
+padding: 0;
+background-color: #0a0a23;
+display: flex;
+justify-content: center;
+align-content: center;
+flex-direction: column;
+align-items: center;}
+
+h1 {color: white;
+margin-top: 30px;
+margin-bottom: 30px;
+text-align: center;
+}
+
+#check-container {background-color: white;
+max-width: 350px;
+height: 150px;
+width: 80%;
+align-items: center;
+text-align: center;
+border-radius: 20px;
+padding-right: 10px;
+padding-left: 10px;
+margin: 20px;
+}
+
+input {border-top: none;
+border-left: none;
+border-right: none;
+border-color: purple;
+text-align: center;
+height: 30px;
+width: 200px;
+}
+
+button {background-color: purple;
+color: white;
+border-radius: 10px;
+width: 70px;
+height: 30px;
+border: none;
+margin: 5px;
+cursor: pointer;
+margin-bottom: 0;
+padding: 0;
+}
+
+#note {background-color: darkgreen;
+color: white;
+max-width: 350px;
+height: 100px;
+width: 80%;
+align-items: center;
+text-align: center;
+border-radius: 20px;
+padding-right: 10px;
+padding-left: 10px;
+margin: 10px;
+}
+
+.hidden {display: none;}
+
+#result {color: black;
+margin-bottom: 20px; margin-top: 0;
+padding: 0;}
